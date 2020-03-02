@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 
-function Para(props) {
+function List(props) {
   return (
-    <p>
-      this is a para
-    </p>
+    <ul>
+      <li> test </li>
+    </ul>
   )
 }
 
@@ -17,15 +17,7 @@ function App() {
         <p>
           Welcome to my first React App!
         </p>
-        <Para/>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <List test="dave"/>
       </header>
     </div>
   );
