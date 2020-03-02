@@ -4,7 +4,11 @@ import './App.css';
 function List(props) {
   return (
     <ul>
-      <li> test </li>
+      <li> Project </li>
+      <li> Project </li>
+      <li> Project </li>
+      <li> Project </li>
+      <li> Project </li>
     </ul>
   )
 }
