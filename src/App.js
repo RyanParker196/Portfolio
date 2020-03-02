@@ -1,30 +1,21 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import Nav from './components/Nav'
+import Image from 'react-bootstrap/Image'
+import Carousel from './components/Carousel'
 
-function List(props) {
-  return (
-    <ul>
-      <li> Project </li>
-      <li> Project </li>
-      <li> Project </li>
-      <li> Project </li>
-      <li> Project </li>
-    </ul>
-  )
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Image bg="dark" src="/me.jpg" roundedCircle />
+        <Nav />
+        <header >
+          <h1 >
+            Welcome to my first React App!
+        </h1>
+        <Carousel />
+        </header>
+      </div>
+    );
+  }
 }
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src="./me.jpg" className="App-pic" alt="pic" />
-        <p>
-          Welcome to my first React App!
-        </p>
-        <List test="dave"/>
-      </header>
-    </div>
-  );
-}
-
-export default App;
