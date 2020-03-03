@@ -3,12 +3,18 @@
 }
 
 .Avatar {
-  height: 200px;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-image: radial-gradient(grey, darkslategrey );
+  background-image: linear-gradient(grey,darkslategrey);
   /* background-image: url("forest.jpg"); */
-  width: 1000x;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;          /* Firefox */
+  image-rendering: -o-crisp-edges;            /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
+  -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
+  float: left;
+}
+
+.info {
+  align-content: right;
 }
 
 .carousel-inner {
@@ -16,7 +22,7 @@
 }
 
 .Banner {
-  height: 200px;
+  height: auto;
   width: auto;
 }
 
