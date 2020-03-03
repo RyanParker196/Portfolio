@@ -10,10 +10,11 @@ export default class App extends Component {
       <div>
         <div className="Avatar">
           <Image bg="dark" src="/me.jpg" alt="error loading img" roundedCircle />
+          <Image src="/forest.jpg" alt="error" className="Banner"/>
         </div>
         <Nav />
         <header >
-            <h2>
+          <h2>
             View my recent projects by clicking any of the links below
             </h2>
           <Carousel />

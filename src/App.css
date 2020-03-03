@@ -15,8 +15,13 @@
   background-color: darkslategrey;
 }
 
+.Banner {
+  height: 200px;
+  width: auto;
+}
+
 img {
-  border: blue;
+  border: palegreen;
   border-style: outset;
 }
 
