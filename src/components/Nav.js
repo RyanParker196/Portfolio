@@ -3,7 +3,7 @@ import {Navbar, Form, FormControl, Button, Nav} from 'react-bootstrap'
 
 export default function MyNav() {
     return (
-        <Navbar bg="primary" variant="dark">
+        <Navbar bg="secondary" variant="dark">
             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link href="#home">Home</Nav.Link>

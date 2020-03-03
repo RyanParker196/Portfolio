@@ -6,14 +6,16 @@ import Carousel from './components/Carousel'
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <Image bg="dark" src="/me.jpg" roundedCircle />
+      <div >
+        <div>
+          <Image bg="dark" src="/me.jpg" alt="error loading img" roundedCircle />
+        </div>
         <Nav />
         <header >
-          <h1 >
-            Welcome to my first React App!
-        </h1>
-        <Carousel />
+          <h2 >
+            View my recent projects by clicking any of the links below
+        </h2>
+          <Carousel />
         </header>
       </div>
     );
