@@ -1,8 +1,26 @@
-/* .App {
+.App {
   text-align: center;
 }
 
-.App-header {
+.Avatar {
+  height: 200px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-image: radial-gradient(grey, darkslategrey );
+  /* background-image: url("forest.jpg"); */
+  width: 1000x;
+}
+
+.carousel-inner {
+  background-color: darkslategrey;
+}
+
+img {
+  border: blue;
+  border-style: outset;
+}
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -20,5 +38,4 @@
 .App-pic {
   margin: 20px 0;
   max-width: 200px;
-  border-radius: 50%; */
-/* } */
+  border-radius: 50%; */ 

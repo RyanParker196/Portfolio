@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 export default function MyCarousel() {
   return (
-    <Carousel>
+    <Carousel className="Carousel">
       <Carousel.Item>
         <img
           src="/logo512.png"
