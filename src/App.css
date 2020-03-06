@@ -2,31 +2,60 @@
   text-align: center;
 }
 
+
+
+body {
+  background-color: lightcyan;
+}
+
 .Avatar {
-  background-image: linear-gradient(grey,darkslategrey);
-  /* background-image: url("forest.jpg"); */
+  background-image: radial-gradient(white,grey);
   image-rendering: crisp-edges;
   image-rendering: -moz-crisp-edges;          /* Firefox */
   image-rendering: -o-crisp-edges;            /* Opera */
   image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
   -ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
-  float: left;
+  float: center;
+}
+
+.BigDiv {
+    background-image: url("/mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 2500px;
+}
+
+.Greeting {
+  background-color: lightgreen;
 }
 
 .info {
   align-content: right;
 }
 
-.carousel-inner {
-  background-color: darkslategrey;
+.Carousel {
+  background-color: transparent;
+  min-height: 650px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.Banner {
-  height: auto;
-  width: auto;
+/* .carousel-control-prev-icon {
+  height: 10px;
+} */
+
+.carousel-inner {
+  background-color: darkslategrey;
+  display: block;
+  width: 100%;
+}
+
+.poster {
+  height: 500px;
 }
 
 img {
+  display: block;
   border: limegreen;
   border-style: outset;
 }

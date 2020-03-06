@@ -7,17 +7,17 @@ import './App.css'
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="BigDiv">
         <div className="Avatar">
           <Image bg="dark" src="/me.jpg" alt="error loading img" roundedCircle />
         </div>
         <Nav />
         <header >
-          <h2>
+          <h2 className="Greeting">
             View my recent projects by clicking any of the links below
-            </h2>
-          <Carousel />
+          </h2>
         </header>
+        <Carousel />
       </div>
     );
   }
