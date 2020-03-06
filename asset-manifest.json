@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.505dc7a8.chunk.css",
-    "main.js": "/me/static/js/main.2219e9f0.chunk.js",
-    "main.js.map": "/me/static/js/main.2219e9f0.chunk.js.map",
-    "runtime-main.js": "/me/static/js/runtime-main.24c63112.js",
-    "runtime-main.js.map": "/me/static/js/runtime-main.24c63112.js.map",
-    "static/js/2.b53a40b9.chunk.js": "/me/static/js/2.b53a40b9.chunk.js",
-    "static/js/2.b53a40b9.chunk.js.map": "/me/static/js/2.b53a40b9.chunk.js.map",
-    "index.html": "/me/index.html",
-    "precache-manifest.a02741d7e7898ef00c2b03d396539c55.js": "/me/precache-manifest.a02741d7e7898ef00c2b03d396539c55.js",
-    "service-worker.js": "/me/service-worker.js",
-    "static/css/main.505dc7a8.chunk.css.map": "/me/static/css/main.505dc7a8.chunk.css.map",
-    "static/js/2.b53a40b9.chunk.js.LICENSE.txt": "/me/static/js/2.b53a40b9.chunk.js.LICENSE.txt"
+    "main.css": "/mettps://RyanParker196.github.io/portfolio/static/css/main.505dc7a8.chunk.css",
+    "main.js": "/mettps://RyanParker196.github.io/portfolio/static/js/main.dabb0954.chunk.js",
+    "main.js.map": "/mettps://RyanParker196.github.io/portfolio/static/js/main.dabb0954.chunk.js.map",
+    "runtime-main.js": "/mettps://RyanParker196.github.io/portfolio/static/js/runtime-main.be746337.js",
+    "runtime-main.js.map": "/mettps://RyanParker196.github.io/portfolio/static/js/runtime-main.be746337.js.map",
+    "static/js/2.b53a40b9.chunk.js": "/mettps://RyanParker196.github.io/portfolio/static/js/2.b53a40b9.chunk.js",
+    "static/js/2.b53a40b9.chunk.js.map": "/mettps://RyanParker196.github.io/portfolio/static/js/2.b53a40b9.chunk.js.map",
+    "index.html": "/mettps://RyanParker196.github.io/portfolio/index.html",
+    "precache-manifest.9fee8c0b7a6536ae7fdca89afb1673c8.js": "/mettps://RyanParker196.github.io/portfolio/precache-manifest.9fee8c0b7a6536ae7fdca89afb1673c8.js",
+    "service-worker.js": "/mettps://RyanParker196.github.io/portfolio/service-worker.js",
+    "static/css/main.505dc7a8.chunk.css.map": "/mettps://RyanParker196.github.io/portfolio/static/css/main.505dc7a8.chunk.css.map",
+    "static/js/2.b53a40b9.chunk.js.LICENSE.txt": "/mettps://RyanParker196.github.io/portfolio/static/js/2.b53a40b9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.24c63112.js",
+    "static/js/runtime-main.be746337.js",
     "static/js/2.b53a40b9.chunk.js",
     "static/css/main.505dc7a8.chunk.css",
-    "static/js/main.2219e9f0.chunk.js"
+    "static/js/main.dabb0954.chunk.js"
   ]
 }
