@@ -13,9 +13,9 @@ export default class App extends Component {
         </div>
         <Nav />
         <header >
-          <h2 className="Greeting">
+          {/* <h2 className="Greeting">
             View my recent projects by clicking any of the links below
-          </h2>
+          </h2> */}
         </header>
         <Carousel />
       </div>

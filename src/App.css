@@ -2,7 +2,12 @@
   text-align: center;
 }
 
-
+.SrcCode {
+  background-color: black;
+  width: min-content;
+  margin:0 auto;
+  display: block;
+}
 
 body {
   background-color: lightcyan;
@@ -36,13 +41,13 @@ body {
 .Carousel {
   background-color: transparent;
   min-height: 650px;
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
-/* .carousel-control-prev-icon {
-  height: 10px;
-} */
+.carousel-control-prev , .carousel-control-next {
+  height: 77%;
+}
 
 .carousel-inner {
   background-color: darkslategrey;
