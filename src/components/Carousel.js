@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import { Button } from 'react-bootstrap'
+import haskell from '../assets/haskell.png'
 
 export default function MyCarousel() {
 
@@ -8,14 +9,14 @@ export default function MyCarousel() {
     <Carousel className="Carousel">
       <Carousel.Item>
         <img
-          src="/haskell.png"
+          src={ haskell }
           className="d-block w-100 poster"
           alt="First slide"
           bg="black"
         />
         <Carousel.Caption>
-          <h3>Automatic Differentaion in Haskell</h3>
-          <p>
+          <h3 style={{ color: "black" }} >Automatic Differentaion in Haskell</h3>
+          <p style={{ color: "black" }} >
             Click the links below to see the source code
             or learn more information about Automatic Differentaion
           </p>

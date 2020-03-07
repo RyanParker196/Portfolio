@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from './components/Nav'
 import Image from 'react-bootstrap/Image'
 import Carousel from './components/Carousel'
+import me from "./assets/me.jpg"
 import './App.css'
 
 export default class App extends Component {
@@ -9,7 +10,7 @@ export default class App extends Component {
     return (
       <div className="BigDiv">
         <div className="Avatar">
-          <Image bg="dark" src="/me.jpg" alt="error loading img" roundedCircle />
+          <Image bg="dark" src={ me } alt="error loading img" roundedCircle />
         </div>
         <Nav />
         <header >
