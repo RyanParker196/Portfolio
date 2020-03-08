@@ -1,21 +1,27 @@
 import React from 'react'
+import { Card, Button } from 'react-bootstrap'
 
-function Card(props) {
+export default function MyCard(props) {
+    var sty = { minHeight: "286px", maxHeight: "286px"}
+
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
+            <Card style={{ width: '18rem', backgroundColor: 'darkslategrey', color: 'white' }}>
+                <Card.Img style={ sty } variant="top" src={props.img} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>{ props.title }</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        {props.text}
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button
+                        target="_blank"
+                        variant="success"
+                        style={{ alignContent: "Center" }}
+                        href={props.link} >
+                        {props.btn}
+          </Button>
                 </Card.Body>
             </Card>
         </div>
     )
 }
-
-export default Card

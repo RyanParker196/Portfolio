@@ -1,22 +1,42 @@
-.App {
+* {
   text-align: center;
+  font-size: large;
 }
 
-.SrcCode {
-  width: min-content;
-  margin:0 auto;
-  display: block;
+.btn {
+  position: absolute;
+  right: 29%;
+  bottom: 10px;
 }
 
 .BigDiv {
-    background-image: url("./assets/newBG.jpg");
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 1500px;
+  background-image: url("./assets/newBG.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 1500px;
+}
+
+.Projects {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Projects > div {
+  margin: 25px;
+}
+
+.card-body {
+  min-height: 250px;
 }
 
 .navbar {
@@ -34,22 +54,18 @@
   text-align: center;
 }
 
-/* .Carousel {
-  background-color: transparent;
-  min-height: 650px;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.carousel-control-prev , .carousel-control-next {
-  height: 77%;
-}
-
-.carousel-inner {
-  background-color: darkslategrey;
+.Intro {
+  color: #fff;
+  margin-top: 50px;
+  max-width: 650px;
   display: block;
-  width: 100%;
-} */
+  border-radius: 25px;
+  background-color: darkslategray;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 img {
   image-rendering: crisp-edges;
@@ -62,23 +78,3 @@ img {
   border-color: darkslategrey;
   border-style: outset;
 }
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.App-pic {
-  margin: 20px 0;
-  max-width: 200px;
-  border-radius: 50%; */ 
