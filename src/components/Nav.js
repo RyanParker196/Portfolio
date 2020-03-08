@@ -6,12 +6,14 @@ import resume from '../assets/Resume.pdf'
 
 export default function MyNav() {
     return (
-        <Navbar bg="secondary" variant="dark">
-            <Navbar.Brand href="#home">Home</Navbar.Brand>
+    
+        <Navbar sticky="top" variant="dark">
+            <Navbar.Brand href="/">Home</Navbar.Brand>
             <Nav className="mr-auto">
+                <Nav.Link href="/projects" >Projects</Nav.Link>
+                <Nav.Link href="/research" >Research</Nav.Link>
                 <Nav.Link href="https://www.linkedin.com/in/ryan-parker196/" target="_blank" >LinkedIn</Nav.Link>
                 <Nav.Link href={ resume } target="_blank" >Resume</Nav.Link>
-                {/* <Nav.Link href="#Contact">Contact</Nav.Link> */}
             </Nav>
             {/* <Form inline>
                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />

@@ -19,6 +19,21 @@
     min-height: 1500px;
 }
 
+.navbar {
+  max-width: fit-content;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  border-radius: 25px;
+  background-color: darkslategrey;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
 /* .Carousel {
   background-color: transparent;
   min-height: 650px;
@@ -42,6 +57,8 @@ img {
   image-rendering: -o-crisp-edges;            /* Opera */
   image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-color: darkslategrey;
   border-style: outset;
 }
