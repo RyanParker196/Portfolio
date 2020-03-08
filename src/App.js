@@ -23,13 +23,13 @@ export default class App extends Component {
           <Nav />
 
           <Switch>
-            <Route path="/projects">
+            <Route path={process.env.PUBLIC_URL + '/projects'}>
               <Projects />
             </Route>
-            <Route path="/research">
+            <Route path={process.env.PUBLIC_URL + '/research'}>
               <Research />
             </Route>
-            <Route path="/">
+            <Route path={process.env.PUBLIC_URL + '/'}>
               <Home />
             </Route>
           </Switch>
