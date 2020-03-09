@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Card from './components/Card'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Card from './components/Card'
 import Nav from './components/Nav'
 import Avatar from './components/Avatar';
 import me from "./assets/me.jpg"
@@ -21,20 +21,18 @@ export default class App extends Component {
         <div className="BigDiv">
           <Avatar me={me} />
           <Nav />
-          <Home />
-          <Projects />
 
-          {/* <Switch>
-            <Route path={process.env.PUBLIC_URL + '/projects'}>
+          <Switch>
+            <Route path={process.env.PUBLIC_URL + '/display'}>
               <Projects />
             </Route>
             <Route path={process.env.PUBLIC_URL + '/research'}>
               <Research />
             </Route>
-            <Route path={process.env.PUBLIC_URL + '/'}>
+            <Route path={process.env.PUBLIC_URL}>
               <Home />
             </Route>
-          </Switch> */}
+          </Switch>
 
         </div>
       </Router>
@@ -72,8 +70,8 @@ function Projects() {
       btn="Source code"
       link="https://github.com/RyanParker196/portfolio"
       title="My React Portfolio" 
-      text="Teaching myself React to create this portfolio, I plan on adding
-      more features as I continue to learn more web development" />
+      text="Teaching myself React to explore new technologies and increase my
+      web development efficiency" />
       <Card 
       img={ git }
       btn="Source code"
