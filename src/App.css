@@ -3,8 +3,13 @@
   font-size: large;
 }
 
+.card-button {
+  display: grid;
+}
+
 .btn {
   position: absolute;
+  display: block;
   right: 29%;
   bottom: 10px;
 }
