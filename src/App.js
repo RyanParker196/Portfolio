@@ -16,7 +16,7 @@ export default class App extends Component {
           <Nav />
 
           <Switch>
-            <Route path={process.env.PUBLIC_URL + '/display'}>
+            <Route path={process.env.PUBLIC_URL + '/projects'}>
               <Projects />
             </Route>
             <Route path={process.env.PUBLIC_URL + '/research'}>

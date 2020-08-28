@@ -16,11 +16,12 @@
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "xterm": "^4.4.0"
+    "xterm": "^4.4.0",
+    "xterm-addon-fit": "^0.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && copy build/index.html build/404.html",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
