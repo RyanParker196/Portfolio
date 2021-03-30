@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5012ca4ab91ac482294d3306125dc338",
+    "revision": "19e026afe7b9340e65cb88e144c4ba7a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "1b41981e7e71eb498450",
-    "url": "/portfolio/static/css/main.d2d45e19.chunk.css"
+    "revision": "5310d70b6d32703ec2ec",
+    "url": "/portfolio/static/css/main.2dc5765c.chunk.css"
   },
   {
-    "revision": "90f89f5f824e32daa2a6",
-    "url": "/portfolio/static/js/2.ea4464be.chunk.js"
+    "revision": "2ba0d5a7491389c9b161",
+    "url": "/portfolio/static/js/2.1a59f519.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/portfolio/static/js/2.ea4464be.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.1a59f519.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b41981e7e71eb498450",
-    "url": "/portfolio/static/js/main.ffc88f60.chunk.js"
+    "revision": "5310d70b6d32703ec2ec",
+    "url": "/portfolio/static/js/main.9e0f9d8d.chunk.js"
   },
   {
     "revision": "1a95985286676740b556",
     "url": "/portfolio/static/js/runtime-main.f6eb50f0.js"
   },
   {
-    "revision": "4d1ab08d327aecf39bfca6673cef8d07",
-    "url": "/portfolio/static/media/Resume.4d1ab08d.pdf"
+    "revision": "0bbb9911b1408fcddfd604c923005fe6",
+    "url": "/portfolio/static/media/Automate_de_Buchi2.0bbb9911.jpg"
+  },
+  {
+    "revision": "481e3d5734c9ce4870d3988275160923",
+    "url": "/portfolio/static/media/Resume.481e3d57.pdf"
   },
   {
     "revision": "245763fddede49373d51652eba19e7f1",
@@ -62,5 +66,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fc7e7041611edfbd24029435706dcb97",
     "url": "/portfolio/static/media/recipes.fc7e7041.png"
+  },
+  {
+    "revision": "52b6a7342b90755341b9e840f2e5b884",
+    "url": "/portfolio/static/media/toxic.52b6a734.png"
   }
 ]);
