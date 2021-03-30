@@ -6,12 +6,19 @@ import logo from '../assets/logo512.png'
 import c from '../assets/c.jpg'
 import cpp from '../assets/cpp.jpg'
 import agda from '../assets/agda.jpg'
+import toxic from '../assets/toxic.png'
 import otm from '../assets/otm.jpg'
 import recipes from '../assets/recipes.png'
 
 export default function Projects() {
     return (
         <div className="row Projects">
+            <Card
+                img={toxic}
+                btn="Source code"
+                link="https://colab.research.google.com/drive/1we6dRBx8AMg6BuVG-aBYlAFdud9InTV3?usp=sharing"
+                title="Toxicity Detection with Deep Learning"
+                text="Using Word2Vec to train a deep learning model to detect toxicity in Reddit comments" />
             <Card
                 img={haskell}
                 btn="Source code"
